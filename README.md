@@ -34,7 +34,13 @@ enforce a policy for naming conventions, encrypt sensitive data, and monitor the
 <h2>I have included images of the project below:</h2>
 
 <p align="center">
-Here is a list of users that were added to Active Directory with the PowerShell script.  <br/>
+1. Create a Virtual Machine
+    - Go to Azure Portal > Virtual Machines > Create.
+    - Select subscription, resource group, region, VM size, and OS (Windows/Linux).
+    - Configure an admin username/password or SSH key.
+    - Add a data disk during creation.
+        - Create a new disk > None.
+        - If you select Storage Blob, this allows you to reuse disks from outside Azure or custom configurations you uploaded..  <br/>
 <img src="https://imgur.com/Zq4eSom.png" height="80%" width="80%" alt="Active Directory"/>
 <br />
 <br />
